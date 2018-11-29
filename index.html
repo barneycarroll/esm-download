@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang=en-GB>
+  <head>
+    <meta charset=utf-8>
+
+    <title>
+      ESM adventures
+    </title>
+  </head>
+  
+  <body>
+    <script src=//unpkg.com/mithril></script>
+    <script src=//unpkg.com/mithril-stream></script>
+
+    <script type=module>
+      import {m, mount} from '/mithril/index.js'
+
+      document.write(`
+        Check your network tab: 
+        the local files mithril/m.js & mithril/stream.js 
+        shouldn't have loaded
+      `)
+    </script>
+  </body>
+</html>

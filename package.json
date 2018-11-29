@@ -1,0 +1,22 @@
+{
+  "name": "esm-download",
+  "version": "1.0.0",
+  "description": "Test case for ESM download graphs.",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barneycarroll/esm-download.git"
+  },
+  "author": "Barney Carroll <barney.carroll@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/barneycarroll/esm-download/issues"
+  },
+  "homepage": "https://github.com/barneycarroll/esm-download#readme",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}
